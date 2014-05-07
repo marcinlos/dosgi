@@ -48,7 +48,7 @@
 					<instructions>
 						<Export-Package>sius.osgi.provider*</Export-Package>
 						<Import-Package>org.osgi.framework,org.osgi.util.tracker,sius.osgi</Import-Package>
-						<Bundle-Activator>sius.osgi.provider.Activator</Bundle-Activator>
+                        <Service-Component>OSGI-INF/component.xml</Service-Component>
 					</instructions>
 				</configuration>
 			</plugin>

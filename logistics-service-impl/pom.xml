@@ -47,8 +47,8 @@
 					<manifestLocation>META-INF</manifestLocation>
 					<instructions>
 						<Export-Package>sius.osgi.impl*</Export-Package>
-						<Import-Package>org.osgi.framework,sius.osgi</Import-Package>
-						<Bundle-Activator>sius.osgi.impl.Activator</Bundle-Activator>
+						<Import-Package>org.osgi.framework,sius.osgi,org.osgi.service.component</Import-Package>
+                        <Service-Component>OSGI-INF/component.xml</Service-Component>
 					</instructions>
 				</configuration>
 			</plugin>
